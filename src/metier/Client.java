@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Client 
 {
+	List Facture = new ArrayList();
+	List Client =new ArrayList();
 	private String nom;
 	/** 
 	 * Crée un client.

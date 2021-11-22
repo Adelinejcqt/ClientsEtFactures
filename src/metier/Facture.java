@@ -4,15 +4,16 @@ import java.time.LocalDate;
 
 public class Facture
 {
-	private Client Client;
+	private Client client;
 	private int montant;
 	private boolean reglement = false;
 	private LocalDate date = LocalDate.now();
 	
 
-	public Facture (int montant,boolean reglement,LocalDate date)
+	public Facture (int montant, Client client)
 	{
 		this.montant = montant;
+		this.client = client;
 		
 	}
 	/**
@@ -22,7 +23,7 @@ public class Facture
 	public Client getClient()
 	{
 		
-		return Client;
+		return this.client=client;
 	}
 
 	/**
