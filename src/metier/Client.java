@@ -3,7 +3,7 @@ package metier;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Client extends Facture
+public class Client 
 {
 	private String nom;
 	/** 
@@ -45,7 +45,7 @@ public class Client extends Facture
 	public Facture createFacture(int montant)
 	{
 		
-		return montant;
+		return null;
 	}
 	
 	/**

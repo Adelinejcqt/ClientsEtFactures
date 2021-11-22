@@ -9,7 +9,7 @@ public class Facture
 	private LocalDate date = LocalDate.now();
 	
 
-	public Facture (int montant,)
+	public Facture (int montant,boolean reglement,LocalDate date)
 	{
 		this.montant = montant;
 		this.reglement = reglement;
