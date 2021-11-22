@@ -3,7 +3,7 @@ package metier;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Client
+public class Client extends Facture
 {
 	private String nom;
 	/** 
@@ -11,7 +11,7 @@ public class Client
 	 * @param nom le nom du client. 
 	 */
 	
-	public Client(String nom)
+	public Client (String nom)
 	{
 		this.nom = nom;
 	}
@@ -45,7 +45,7 @@ public class Client
 	public Facture createFacture(int montant)
 	{
 		
-		return null;
+		return montant;
 	}
 	
 	/**

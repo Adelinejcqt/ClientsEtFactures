@@ -5,12 +5,15 @@ import java.time.LocalDate;
 public class Facture
 {
 	private int montant;
+	private boolean reglement;
+	private LocalDate date = LocalDate.now();
 	
-	public Facture (int montant)
+
+	public Facture (int montant,)
 	{
 		this.montant = montant;
-		
-		
+		this.reglement = reglement;
+		this.date = date;
 	}
 	/**
 	 * Retourne le client à qui est adressée la facture..
